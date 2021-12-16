@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Finaças App",
+    "slug": "appFinancas",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#131313"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#131313"
+      },
+      "package": "com.foxti.appfinancas",
+      "versionCode": 2
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#131313"
+    }
+  }
+}
